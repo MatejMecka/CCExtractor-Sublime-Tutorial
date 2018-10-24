@@ -43,4 +43,8 @@ And copy paste this into the new file:
 }
 ```
 
+If you have issues with the work path change the `working_dir` to the Path where CCExtractor is. Sometimes Sublime is dumb to figure out where it has to run stuff.
+
+![build_finished](img/build_finished.png)
+
 Then with the shortcut `CTRL - B` or `CMD - B` you can build CCExtractor from your sublime editor!
