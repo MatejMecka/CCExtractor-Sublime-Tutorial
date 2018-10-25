@@ -35,7 +35,8 @@ To build CCExtractor in sublime go to `Tools - Build System - New Build system`
 
 And copy paste this into the new file:
 
-```{
+```
+{
 	"cmd": "cmake ../src/ && make",
 	"selector": "ccextractor.c",
 	"working_dir":"$file_path",
@@ -48,3 +49,7 @@ If you have issues with the work path change the `working_dir` to the Path where
 ![build_finished](img/build_finished.png)
 
 Then with the shortcut `CTRL - B` or `CMD - B` you can build CCExtractor from your sublime editor!
+
+Best of all When you open a file Sublime recognizes that it's a C file and will color the code for you and offer autocompletition from all the files too
+
+![autocompletition](img/sublime_autocompletion.png)
